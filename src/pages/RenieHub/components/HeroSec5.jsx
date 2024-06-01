@@ -1,5 +1,6 @@
 import React from "react";
 import trackEarn from "../../../assets/images/track-earning.webp";
+import adsMobile from "../../../assets/images/ads-mobile.webp"
 
 const HeroSec5 = () => {
   return (

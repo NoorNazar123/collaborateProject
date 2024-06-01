@@ -5,14 +5,16 @@ import Footer from './components/Footer';
 import Home from './pages/Home/Home';
 import Reniebin from './pages/RenieBin/Reniebin';
 import RenieHub from './pages/RenieHub/RenieHub'; 
+import RenieApp from './pages/RenieApp/RenieApp';
 
 function App() {
   return (
     <>
       <Header /> 
-      <RenieHub />
       {/* <Home /> */}
       {/* <Reniebin /> */}
+       {/* <RenieHub />  */}
+       <RenieApp />  
       <Footer />
     </>
   );
