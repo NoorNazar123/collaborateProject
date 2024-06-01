@@ -15,8 +15,12 @@ function SubscribCards() {
         </div>
         <img className='subscribImg' src={cardImg} alt='' />
       </div>
-      <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end md:mt-0 mt-10 '>
-        <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'>
+      {/* <div className='subscribCardsSection md:8/12 flex md:flex-row justify-end flex-col md:items-end md:mt-0 mt-10 '> */}
+      <div className=' md:8/12 flex md:flex-row justify-end flex-col md:items-end md:mt-0 mt-10 '>
+
+        {/* <div className='standardCard  flex flex-col justify-center items-start px-10 md:mb-0 mb-5'> */}
+        <div className='standardCard relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0'>
+
           <span className='cardTitle gradient-text font-semibold'>
             Renie Bin Standard
           </span>
@@ -36,7 +40,8 @@ function SubscribCards() {
             </Link>
           </div>
         </div>
-        <div className='customCard relative rounded-xl hover:rounded-sm flex flex-col justify-center items-start px-10 mt-10 md:mt-0'>
+
+        <div className='customCard relative  flex flex-col justify-center items-start px-10 mt-10 md:mt-0'>
           <div className='mostPopularLabel font-semibold text-white rounded-md flex justify-center items-center '>
             MOST POPULAR
           </div>

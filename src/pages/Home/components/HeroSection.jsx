@@ -10,7 +10,7 @@ function HeroSection({ scrollToServiceCard }) {
         <div className='mobileCircle  flex justify-start items-start  w-full '>
           <img className='bigCircle' src={Circle} alt='' />
         </div>
-        <div className='heroTitle w-max flex flex-col jsutify-center items-center gap-5 md:gap-10 '>
+        <div className='heroTitle w-max flex flex-col jsutify-center items-center gap-5 md:gap-10 ' style={{ width: '100%' }}>
           <div className='heroTitleText'>
             {' '}
             <span className='transform'>Transform</span> <br />
@@ -19,7 +19,7 @@ function HeroSection({ scrollToServiceCard }) {
             <span className='into mr-2'>into</span>
             <span className='income gradient-text'>income</span>{' '}
           </div>
-          <div className='flex justify-center md:mt-5'>
+          <div className='flex justify-center md:mt-5' >
             <button
               className='heroButton text-white'
               onClick={scrollToServiceCard}

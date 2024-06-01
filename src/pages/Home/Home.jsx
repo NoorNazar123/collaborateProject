@@ -34,7 +34,7 @@ function Home() {
       <div className='aboutSection my-10 pt-10'>
         <About />
       </div>
-      <div className='serviceCardsSection my-10' ref={serviceCardRef}>
+      <div className='serviceCardsSection ' ref={serviceCardRef}>
         <ServiceCards />
       </div>
       <div className='renieBinSection mb-10 py-10 '>

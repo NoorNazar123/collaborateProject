@@ -26,7 +26,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className='IconsSection flex flex-col gap-5 justify-center items-center  w-11/12 md:w-4/12'>
+        <div className='IconsSection flex flex-col gap-5 justify-center items-center  w-11/12 md:w-4/12' style={{ maxWidth: 446 }}>
           <p className='socialTitle gradient-text'>Follow our socials!</p>
           <div className='socialIcons w-full flex justify-between  items-center  '>
             <img src={instagramIcon} alt='' className='iconItem ' />
