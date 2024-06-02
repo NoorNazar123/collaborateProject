@@ -7,6 +7,7 @@ import Reniebin from './pages/RenieBin/Reniebin';
 import RenieHub from './pages/RenieHub/RenieHub'; 
 import RenieApp from './pages/RenieApp/RenieApp';
 import RenieAds from './pages/RenieAds/RenieAds';
+import MediaHub from './pages/MediaHub/MediaHub';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <Reniebin /> */}
        {/* <RenieHub />  */}
        {/* <RenieApp />   */}
-       <RenieAds />
+       {/* <RenieAds /> */}
+       <MediaHub /> 
       <Footer />
     </>
   );
