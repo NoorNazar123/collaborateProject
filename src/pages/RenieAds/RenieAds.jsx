@@ -1,0 +1,34 @@
+import React from 'react'
+import HeroAds1 from './components/HeroAds1'
+import HeroAds2 from './components/HeroAds2'
+import HeroAds3 from './components/HeroAds3'
+import HeroAds4 from './components/HeroAds4'
+import HeroAds5 from './components/HeroAds5'
+import HeroAds6 from './components/HeroAds6'
+import HeroAds7 from './components/HeroAds7'
+import HeroAds8 from './components/HeroAds8'
+import HeroAds9 from './components/HeroAds9'
+import HeroAds10 from './components/HeroAds10'
+
+import TrustedBy from '../../components/TrustedBy'
+
+const RenieAds = () => {
+  return (
+    <div>
+      <HeroAds1 />
+      <HeroAds2 />
+      <HeroAds3 />
+      <HeroAds4 />
+      <HeroAds5 />
+      <HeroAds6 />
+      <HeroAds7 />
+      <HeroAds8 />
+      <HeroAds9 />
+      <HeroAds10 />
+      <TrustedBy />
+      
+    </div>
+  )
+}
+
+export default RenieAds

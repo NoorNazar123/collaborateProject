@@ -6,6 +6,8 @@ import Home from './pages/Home/Home';
 import Reniebin from './pages/RenieBin/Reniebin';
 import RenieHub from './pages/RenieHub/RenieHub'; 
 import RenieApp from './pages/RenieApp/RenieApp';
+import RenieAds from './pages/RenieAds/RenieAds';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       {/* <Home /> */}
       {/* <Reniebin /> */}
        {/* <RenieHub />  */}
-       <RenieApp />  
+       {/* <RenieApp />   */}
+       <RenieAds />
       <Footer />
     </>
   );
