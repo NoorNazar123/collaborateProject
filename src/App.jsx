@@ -9,6 +9,7 @@ import RenieApp from './pages/RenieApp/RenieApp';
 import RenieAds from './pages/RenieAds/RenieAds';
 import MediaHub from './pages/MediaHub/MediaHub';
 import MediaHubMain from './pages/MediaHubMain/MediaHubMain';
+import RenieContact from './pages/RenieContact/RenieContact';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
        {/* <RenieApp />   */}
        {/* <RenieAds /> */}
        {/* <MediaHub />  */}
-       <MediaHubMain />
+       {/* <MediaHubMain /> */}
+       <RenieContact />
       <Footer />
     </>
   );

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const HeroAds9 = () => {
-  return (
-   <div className="bg-gray-400 h-[30vh]">
-   watch video handle
-</div>
-  )
-}
+  return <div className="bg-gray-400 h-[30vh]">watch video handle</div>;
+};
 
-export default HeroAds9
+export default HeroAds9;
